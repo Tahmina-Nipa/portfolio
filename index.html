@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nipa-it22027</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-1 fw-bold" href="#">
+      <span class="text-warning">Nipa</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ms-auto fs-5">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Achievement</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#academic-achievement">Academic</a></li>
+            <li><a class="dropdown-item" href="#co-curricular-activities">Co-curricular</a></li>
+            <li><a class="dropdown-item" href="#others">Others</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="py-5 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-7" data-aos="fade-right">
+        <h1 class="fw-bold display-4">Hello, I'm <span class="text-warning">Nipa</span></h1>
+        <p class="lead">
+          A passionate ICT student who loves building user-friendly and efficient web applications.
+        </p>
+        <a href="#contact" class="btn btn-warning btn-lg me-3">Contact Me</a>
+        <a href="#project" class="btn btn-outline-dark btn-lg">My Projects</a>
+      </div>
+
+      <div class="col-md-5 text-center" data-aos="fade-left">
+        <img src="image/nipa1.jpg" class="img-fluid rounded-circle shadow" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="image/nipa2.jpeg" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <h2 class="fw-bold">About Me</h2>
+        <p>
+          I am <b>Nipa</b>, an ICT student with a strong interest in software development,
+          problem solving, and continuous learning.
+        </p>
+        <p>
+          I enjoy transforming ideas into real-world applications and improving my skills every day.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Education</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <i class="fas fa-school fa-2x text-warning mb-3"></i>
+            <h5>SSC</h5>
+            <p>Science<br>GPA 5.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <i class="fas fa-university fa-2x text-warning mb-3"></i>
+            <h5>HSC</h5>
+            <p>Science<br>GPA 5.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <i class="fas fa-laptop-code fa-2x text-warning mb-3"></i>
+            <h5>BSc in ICT</h5>
+            <p>MBSTU<br>CGPA 3.63</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Python</p><div class="progress mb-3"><div class="progress-bar w-50"></div></div>
+        <p>C / C++</p><div class="progress mb-3"><div class="progress-bar w-75"></div></div>
+        <p>Java</p><div class="progress mb-3"><div class="progress-bar w-60"></div></div>
+      </div>
+      <div class="col-md-6">
+        <p>Django</p><div class="progress mb-3"><div class="progress-bar w-55"></div></div>
+        <p>Flask</p><div class="progress mb-3"><div class="progress-bar w-60"></div></div>
+        <p>Git</p><div class="progress mb-3"><div class="progress-bar w-90"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECT ================= -->
+<section id="project" class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow h-100">
+          <img src="image/nipa3.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Virtual Classroom</h5>
+            <a href="https://github.com/Tahmina-Nipa/virtual-classroom" class="btn btn-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-3">Contact Me</h2>
+    <p>Email: it22058@mbstu.ac.bd</p>
+    <p>Phone: 01609823631</p>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white text-center py-3">
+  Developed by <b>Nipa</b> © 2025
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+</body>
+</html>
